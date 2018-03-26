@@ -1,0 +1,42 @@
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roto {
+  background-image: url('/images/buoy.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+img.buoy {
+  box-sizing: border-box;
+  padding: 1em;
+  max-height: 100%;
+  max-width: 40%;
+}
+
+.info {
+  font-family: 'Slabo 27px', serif;
+  font-size: 20pt;
+  max-width: 40%;
+  padding: 1em;
+}
+
+a {
+ text-decoration: underline;
+ color: #333;
+}
+
+a:hover {
+  text-decoration: none;
+}
